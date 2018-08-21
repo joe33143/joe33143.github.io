@@ -312,7 +312,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   background: none;
 }
 input[type=range]::-moz-range-track {
-  width: 100%;
+  width: 70%;
   height: 8.4px;
   cursor: pointer;
   animate: 0.2s;
@@ -331,7 +331,7 @@ input[type=range]::-moz-range-thumb {
   cursor: pointer;
 }
 input[type=range]::-ms-track {
-  width: 100%;
+  width: 60%;
   height: 8.4px;
   cursor: pointer;
   animate: 0.2s;
