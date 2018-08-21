@@ -177,7 +177,7 @@ div h3
   position: absolute;
   z-index: 1;
   top: 3px;
-  left: 6px;
+  left: 0px;
   width: 28px;
   height: 28px;
   transition: .4s ease;
