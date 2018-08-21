@@ -125,7 +125,7 @@ div h3
 }
 .input-toggle:before {
   content: "on";
-  left: 0;
+  left: 0px;
   color: #fff;
 }
 .input-toggle:after {
@@ -177,7 +177,7 @@ div h3
   position: absolute;
   z-index: 1;
   top: 3px;
-  left: 0px;
+  left: 2px;
   width: 28px;
   height: 28px;
   transition: .4s ease;
@@ -312,7 +312,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   background: none;
 }
 input[type=range]::-moz-range-track {
-  width: 70%;
+  width: 50%;
   height: 8.4px;
   cursor: pointer;
   animate: 0.2s;
