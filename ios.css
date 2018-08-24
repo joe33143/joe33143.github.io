@@ -41,14 +41,15 @@ div h3
 	border-radius: 10px;
 	padding: 20px;
 	margin: 10px;
+    margin-bottom: 5px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-    box-shadow: 1px 1px 15px 0px rgba( 20, 20, 20, .3 );
+    box-shadow: 1px 1px 10px 0px rgba( 20, 20, 20, .3 );
     font-weight: bold;
 }
 .ALL{
     
-    height: 80%;
+    height: 75%;
     display: inherit;
     border: 50px;
     /*background: red;*/
@@ -81,7 +82,7 @@ div h3
 	margin: 5px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-    box-shadow: 1px 1px 15px 0px rgba( 20, 20, 20, .3 );
+    box-shadow: 1px 1px 10px 0px rgba( 20, 20, 20, .3 );
     font-weight: bold;
 }
 .tablinks-1
@@ -158,7 +159,7 @@ div h3
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.15), inset 0 0 0 1px #31a2a8;
 }
 .input-toggle input:checked ~ .input-toggle-handle:before {
-  left: calc(50% + 3px);
+  left: calc(50% + 4px);
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2), inset 0 0 0 1px #31a2a8, 0 1px 2px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -244,10 +245,11 @@ p {
 	/*float: left;
 	height: 330px;*/
 	margin: 10px;
+    margin-top: 5px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	position: relative;
-	box-shadow: 1px 1px 15px 0px rgba( 20, 20, 20, .3 );
+	box-shadow: 1px 1px 10px 0px rgba( 20, 20, 20, .3 );
 }
 .RGB-Tab {
     display: none;
@@ -527,20 +529,24 @@ p {
 }
 .input-toggle-handle {
   display: block;
-  width: 84px;
+  width: 70px;
   height: 30px;
   background-image: linear-gradient(#51c2d7, #51dacf);
   border-radius: 10em;
   transition: .4s ease;
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.15), inset 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 44px 44px #fff;
 }
+.input-toggle input:checked ~ .input-toggle-handle:before {
+  left: calc(50% + 7px);
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2), inset 0 0 0 1px #31a2a8, 0 1px 2px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+}
 .input-toggle-handle:before {
   content: "";
   position: absolute;
   z-index: 1;
   top: 2.4px;
-  left: 8px;
-  width: 32px;
+  left: 4px;
+  width: 25px;
   height: 25px;
   transition: .4s ease;
   background: #fff;
